@@ -28,11 +28,11 @@ const ContactListItem = ({ user }) => {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
+    flexDirection: "row",
     marginHorizontal: 10,
     marginVertical: 5,
     height: 70,
-    alignItems: 'center',
+    alignItems: "center",
   },
   image: {
     width: 60,
@@ -40,11 +40,14 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     marginRight: 10,
   },
+  content: {
+    flex: 1,
+  },
   name: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   subTitle: {
-    color: 'gray',
+    color: "gray",
   },
 });
 
